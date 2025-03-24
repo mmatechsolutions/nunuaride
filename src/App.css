@@ -1,0 +1,126 @@
+
+
+body{
+    margin: 0;
+}
+.top-badge{
+    background-color: black;
+    color: #fe6807;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.top-badge div a{
+    color: #fe6807;
+}
+.logo h1{
+    margin: 0;
+    padding: 12px;
+}
+
+.menu{
+    position: absolute;
+    right: 10px;
+}
+
+.menu ul{
+    margin: 0;
+    display:flex;
+}
+
+.menu li{
+    padding: 12px;
+    list-style-type: none;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+    color: #fe6a07ce;
+}
+
+
+.secondary-menu{
+    height: 50px;
+    background-color: #85d5c8;
+    color: black;
+}
+
+.secondary-menu ul{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondary-menu li{
+    list-style-type: none;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.secondary-menu li button{
+    padding: 6px;
+    width: auto;
+    border: none;
+    border-radius: 8px;
+}
+
+.filter{
+    border-radius: 8px;
+    width: 25%;
+    height: 600px;
+    position: absolute;
+    right: 10px;
+    top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
+
+.cars{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 73%;
+
+}
+
+.show{
+    width: 201px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    transition: border 1s linear;
+}
+
+.show:hover{
+    border: 1px solid;
+}
+.cars{
+    padding: 8px;
+}
+.show img{
+    width: 200px;
+    height: 200px;
+    border: none;
+    object-fit: cover;
+}
+
+.show button{
+    width: 100%;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: teal;
+}
+
+.show button:hover{
+    background-color: #85d5c8;
+}
