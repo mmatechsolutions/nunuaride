@@ -11,7 +11,7 @@ const Home = () => {
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/contact-us">Contact Us</a></li>
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Blog</a></li>
                     </ul>
                 </div>
             </div>

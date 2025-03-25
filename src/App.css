@@ -124,3 +124,76 @@ body{
 .show button:hover{
     background-color: #85d5c8;
 }
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.addForm h2{
+    text-align: center;
+}
+
+ 
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #85d5c8;
+    box-shadow: 0 0 10px 0;
+}
+.form form input{
+    width: 90%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    outline: feint;
+    border: none;
+
+
+}
+.form form input:focus{
+    border-color: #fe6807;
+    outline: none;
+}
+
+.form form textarea:focus{
+    border-color: #fe6807;
+    outline: none;
+}
+
+.form form textarea{
+    width: 90%;
+    height: 240px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    outline: feint;
+}
+.form form h2{
+    margin: 0;
+    padding: 12px;
+    display:inline-block;
+}
+.form form button{
+    width: 90%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: teal;
+    color: white;
+}
+
+.form form button:hover{
+    background-color: #10bb9e;
+}
